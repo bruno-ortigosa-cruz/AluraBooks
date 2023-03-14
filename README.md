@@ -5,3 +5,5 @@ Português:<br>
 
 English:<br>
 - This project is a product of a HTML and CSS training with a mobile-first approach, without JavaScript implementation (except for the SwiperJS CDN usage), it is mostly a static website and it is part of the "HTML e CSS: responsividade com mobile-first" course from Alura.
+
+GitHub Page: https://bruno-ortigosa-cruz.github.io/AluraBooks/
