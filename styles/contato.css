@@ -1,0 +1,102 @@
+.contato {
+    background-color: var(--cor-primaria);
+    padding: 1.5rem;
+}
+
+.contato__titulo {
+    background: var(--cor-gradiente);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 1.68rem;
+    margin-bottom: 0.5rem;
+}
+
+.contato__texto {
+    background: var(--cor-gradiente);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato__email {
+    background-color: transparent;
+    color: var(--cor-titulo-secundario);
+    border: 1px solid var(--cor-titulo-secundario);
+    border-radius: 24px;
+    padding: 0.62rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contato__email:focus {
+    outline: none;
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--cor-titulo-secundario);
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    background: url(../assets/Email.svg) no-repeat;
+    background-position: 0rem 0.17rem;
+}
+
+.contato__email:focus::placeholder {
+    color: transparent;
+    background: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 9.25rem;
+    }
+
+    .contato__container {
+        max-width: 42%
+    }
+
+    .contato__titulo {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .contato__texto {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .contato__email {
+        height: fit-content;
+        width: 45%;
+        padding: 0.68rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.5rem;
+        padding: 4rem 0;
+    }
+
+    .contato__email {
+        width: 20%;
+    }
+
+    .contato__container {
+        width: 25rem;
+    }
+}

@@ -1,0 +1,82 @@
+.rodape {
+    background-color: #F9F9F9;
+    padding: 1.5rem;
+    border-top: 1px solid var(--cor-titulo-secundario);
+}
+
+.rodape__titulo {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--cor-titulo-secundario);
+}
+
+.rodape__educacao, .rodape__educacao-online, .rodape__comunidade {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: grid;
+        grid-template: 1fr / repeat(4, 25%);
+        padding: 3.5rem 1.5rem 4.37rem 1.5rem;
+    }
+
+    .rodape__titulo {
+        color: #000;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .rodape__educacao, .rodape__educacao-online, .rodape__comunidade {
+        display: block;
+    }
+
+    .rodape__lista-titulo {
+        color: var(--cor-footer-titulo-lista);
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 1.31rem;
+        text-transform: uppercase;
+    }
+
+    .lista__educacao, .lista__educacao-online, .lista__comunidade {
+        margin-top: 1.56rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .rodape__item {
+        display: flex;
+    }
+
+    .item__ancora {
+        display: flex;
+        column-gap: 0.5rem;
+        align-items: center;
+    }
+
+    .item__link {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 1.31rem;
+        color: var(--cor-footer-item);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape__titulo {
+        text-align: center;
+    }
+
+    .rodape__educacao, .rodape__educacao-online, .rodape__comunidade {
+        border-left: 1px solid var(--cor-footer-titulo-lista);
+        padding: 0 0 0.7rem 1.25rem;
+    }
+
+    .rodape__lista-titulo {
+        line-height: 0;
+    }
+}
