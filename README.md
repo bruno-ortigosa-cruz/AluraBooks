@@ -1,4 +1,4 @@
-# AluraBooks
+# Alura Books
 
 Português:<br>
 - Um projeto feito para treinar HTML e CSS com o desenvolvimento em mobile-first sem implementação de JavaScript (exceto o uso do CDN SwiperJS), é um site estático em sua grande parte e é parte do curso "HTML e CSS: responsividade com mobile-first" da plataforma Alura.
