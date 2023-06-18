@@ -13,4 +13,4 @@ English:<br>
 Note: In case you want to test the site's responsivity with the Dev Tools, keep in mid that it is necessary to reload the page after resizing it, for the JS to reload.
 <br>
 <br>
-GitHub Page: https://bruno-ortigosa-cruz.github.io/AluraBooks/
+GitHub Page: https://bruno-ortigosa-cruz.github.io/alura-books/
